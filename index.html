@@ -6,15 +6,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="#">
   <title>Digital Calculator</title>
 </head>
 <body>
+
   <header>
-    <input type="number" id="display">
+    <div id="display-output" class="display-container">
+        <input type="number" id="display">
+        <button id="add-btn">+</button>
+        <button id="subtract-btn">-</button>
+    </div>
   </header>
     <main>
-      <button id="add-btn">+</button>
-      <button id="subtract-btn">-</button>
+      <div id="numberkeys" class="">
+        <button id="number-btn"></button>
+      </div>
+
       <p id="result"></p>
   </main>
   
