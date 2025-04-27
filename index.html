@@ -13,14 +13,18 @@
 
   <header>
     <div id="display-output" class="display-container">
-        <input type="number" id="display">
-        <button id="add-btn">+</button>
-        <button id="subtract-btn">-</button>
+        <input type="number" id="display" value="0">
     </div>
   </header>
     <main>
-      <div id="numberkeys" class="">
-        <button id="number-btn"></button>
+      <!-- operator-buttons -->
+      <div id="operator-keys">
+        <button id="add-btn">+</button>
+        <button id="subtract-btn">-</button>
+      </div>
+      <!-- number-keys -->
+      <div id="numberkeys" class="number-btn">
+        <button id="num-1" class="number-1">1</button>
       </div>
 
       <p id="result"></p>

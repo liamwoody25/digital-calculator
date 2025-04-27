@@ -1,15 +1,22 @@
 const addBtn = document.getElementById('add-btn');
 const subtractBtn = document.getElementById('subtract-btn');
-const displayOutput = document.getElementById('display-output');
+const result = document.getElementById('result')
+const displayOuput = document.getElementById('display-output');
 
-
-function addNumbers() {
-  const numberBtn = parseInt(document.getElementById('number-btn'));
+function clearDisplay(){
+  let displayValue = "";
+  document.getElementById('display').value = displayValue;
 }
 
-addBtn.addEventListener('click', addNumbers());
+
+function addNumber(){
+
+}
 
 
+addBtn.addEventListener('click', function(){
+  addNumber()
+})
 
 
 // const num2 = 5;
