@@ -6,21 +6,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="#">
+  <link rel="stylesheet" href="main.css">
   <title>Digital Calculator</title>
 </head>
 <body>
-
+  <div class="calculator-container">
   <header>
-    <div id="display-output" class="display-container">
-        <input type="number" id="display" value="0">
-    </div>
-  </header>
+      <div id="display-output" class="display-container">
+          <input type="number" id="display" value="0">
+      </div>
     <main>
       <!-- operator-buttons -->
       <div id="operator-keys">
-        <button id="add-btn">+</button>
-        <button id="subtract-btn">-</button>
+        <button id="add-btn" class="add-btn">+</button>
+        <button id="subtract-btn" class="subtract-btn">-</button>
       </div>
       <!-- number-keys -->
       <div id="numberkeys" class="number-btn">
@@ -30,9 +29,8 @@
       <p id="result"></p>
   </main>
   
-  <main>
 
-  </main>
   <script src="calculator.js"></script>
+</div>
 </body>
 </html>

@@ -1,16 +1,16 @@
 const addBtn = document.getElementById('add-btn');
 const subtractBtn = document.getElementById('subtract-btn');
 const result = document.getElementById('result')
-const displayOuput = document.getElementById('display-output');
+const displayinput = document.getElementById('display-output');
 
-function clearDisplay(){
-  let displayValue = "";
-  document.getElementById('display').value = displayValue;
+function currentDisplay(){
+  const display = '';
+  document.getElementById('display').value;
 }
 
 
-function addNumber(){
 
+function addNumber(){
 }
 
 
