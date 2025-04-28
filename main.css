@@ -22,9 +22,8 @@ header {
 }
 
 .display-container {
-  padding-bottom: 40px;
   justify-content: center;
-  width: 40%;
+  width: 100%;
   background-color: #50545d;
 }
 
@@ -37,6 +36,11 @@ input {
 
 /**** base main ****/
 
+.operator-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
 .add-btn,
 .subtract-btn {
