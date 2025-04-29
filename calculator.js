@@ -1,14 +1,15 @@
 let addBtn_div = document.querySelector('.add-btn');
 let subtractBtn_div = document.getElementById('.subtract-btn');
 let display = document.getElementById('display');
-const numBtn_div = document.querySelector('.number-1')
+let numBtn_div = document.querySelector('.number-keys')
 let result = document.querySelector('resutl')
 
 
 
 
 function getNumber() {
-  const displayInput = document.querySelector('.number-1')
+  const displayInput = document.querySelector('.number-1');
+
 }
 
 function addNumber(){
