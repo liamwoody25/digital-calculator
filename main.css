@@ -44,6 +44,7 @@ input {
 
 .add-btn,
 .subtract-btn {
+  cursor: pointer;
   box-shadow: 1px 9px 19px -8px #000, 
   -11px 0px 24px -14px #FFF;
   background-color:#50545d;

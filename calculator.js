@@ -1,26 +1,28 @@
-const addBtn_div = document.getElementById('add-btn');
-const subtractBtn_div = document.getElementById('subtract-btn');
-const numBtn_div = document.getElementById('number-keys')
-const displayinput = document.getElementById('display-output');
+let addBtn_div = document.querySelector('.add-btn');
+let subtractBtn_div = document.getElementById('.subtract-btn');
+let display = document.getElementById('display');
+const numBtn_div = document.querySelector('.number-1')
+let result = document.querySelector('resutl')
 
 
 
+
+function getNumber() {
+  const displayInput = document.querySelector('.number-1')
+}
 
 function addNumber(){
-  let num1 = parseInt(document.getElementById('number-1'));
-  let num2 = parseInt(document.getElementById('number-2'));
-  let result = num1 + num2;
-  displayinput.value += 1;
-  console.log(num1+num2);
+  let displayOutPut = document.getElementById('add-btn');
+
 }
 
 
 
 
 addBtn_div.addEventListener('click', function(){
-  addNumber()
+ console.log('adding number')
 })
 
 numBtn_div.addEventListener('click', function(){
-  getNumber()
-});
+  console.log('showing number')
+})
