@@ -1,7 +1,8 @@
 let addBtn_div = document.querySelector('.add-btn');
 let subtractBtn_div = document.getElementById('.subtract-btn');
 let display = document.getElementById('display');
-let numBtn_div = document.querySelector('.number-keys')
+let num1_Btn_div = document.querySelector('.number-1');
+let num2_Btn_div = document.querySelector('.number-2');
 let result = document.querySelector('resutl')
 
 
@@ -9,7 +10,6 @@ let result = document.querySelector('resutl')
 
 function getNumber() {
   const displayInput = document.querySelector('.number-1');
-
 }
 
 function addNumber(){
@@ -22,8 +22,12 @@ function addNumber(){
 
 addBtn_div.addEventListener('click', function(){
  console.log('adding number')
-})
+});
 
-numBtn_div.addEventListener('click', function(){
-  console.log('showing number')
+num1_Btn_div.addEventListener('click', function(){
+  console.log('showing number 1')
+});
+
+num2_Btn_div.addEventListener('click', function(){
+  console.log('show number 2')
 })
